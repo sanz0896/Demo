@@ -1,0 +1,115 @@
+body{
+ color: #000305;
+    font-size: 87.5%;
+    line-height: 1.5;
+    text-align: left;
+    
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+    background-color: rgba(10,20,30,.20);
+}
+a{
+  text-decoration:none;
+}
+.mainHeader img{
+    width: 30%;
+    height: auto;
+    margin: 2% 0; 
+}
+.mainHeader nav{
+    height:40px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius:5px;
+    
+}
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+.mainHeader nav ul li {  
+    display: inline;
+}
+.mainHeader nav a:link, mainHeader nav a:visited{
+    color: #fff;
+    display: :inline-block;
+    padding: 10px 25px;
+}
+mainHeader nav a:hover, mainHeader nav a:active{
+     
+}
+.mainContent {
+    line-height: 25px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.content{
+    width: 70%;
+    float: left; 
+}
+.topContent{
+    background-color: #6ff;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding: 3% 5%;
+    overflow: hidden;margin-top: 2%;
+}
+.bottonContent{
+ background-color: #6ff;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+.top-sider{
+    width: 21%;
+    float: left;
+    background-color: #6ff;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding: 2% 3%;
+    margin: 2% 0 0 3%;
+}
+.midlle-sider{
+   width: 21%;
+    float: left;
+    background-color: #6ff;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding: 2% 3%;
+     margin: 1%  0 1% 3%;
+}
+.footer{
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    background-color: #666;
+    margin: 2% 0;
+}
+.footer p{
+    width: 92%;
+    margin: 2% auto;
+    color: aliceblue;
+}
+@media only screen and (min-width: 150px) and (max-width:600px ){
+    body{
+        background-color: #660305;
+        width:90%;
+        height: auto
+        margin:2% 0;
+    }
+    .content{
+    width: 100%;
+    float: left; 
+}
+}
